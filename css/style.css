@@ -100,7 +100,7 @@ ul {
   font-weight: 500;
   padding: 12px 35px;
   color: white;
-  border-radius: 40px;
+  /* border-radius: 10px; */
   display: inline-block;
   white-space: nowrap;
   border: none;
@@ -156,6 +156,16 @@ ul {
   height: 20px;
   border-top: 5px solid var(--skin-color);
   border-right: 5px solid var(--skin-color);
+}
+.aside .logo a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid var(--skin-color);
+  border-left: 5px solid var(--skin-color);
 }
 .aside .nav-toggler {
   height: 40px;
@@ -278,7 +288,7 @@ h3.my-profession {
 }
 .home .home-img img {
   margin: auto;
-  border-radius: 5px;
+  margin-right: 40px;
   height: 400px;
 }
 
